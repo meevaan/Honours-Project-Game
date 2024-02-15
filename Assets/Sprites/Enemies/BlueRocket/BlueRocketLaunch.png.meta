@@ -1,0 +1,435 @@
+fileFormatVersion: 2
+guid: 9086dfc5c7c92764984cef7ec0fb1771
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BlueRocketLaunch_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 5
+        width: 17
+        height: 36
+      alignment: 9
+      pivot: {x: 0.73657465, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6986b8a330ed1714685bc1363b8b399f
+      internalID: -1486311488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueRocketLaunch_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 5
+        width: 17
+        height: 36
+      alignment: 9
+      pivot: {x: 0.7365747, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf6faf7186d7c84382484fb85fadb68
+      internalID: 202129406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueRocketLaunch_2
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 5
+        width: 20
+        height: 40
+      alignment: 9
+      pivot: {x: 0.72576827, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c12d119525a1341910d0371209c45a
+      internalID: -2103425642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueRocketLaunch_3
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 5
+        width: 14
+        height: 36
+      alignment: 9
+      pivot: {x: 0.6810096, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7e3761bd78258448867cfafd7dca9a
+      internalID: 1704207457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueRocketLaunch_4
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 5
+        width: 14
+        height: 36
+      alignment: 9
+      pivot: {x: 0.6777191, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d21115af7387cd47b4b9ff7afbe5341
+      internalID: 547049619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueRocketLaunch_5
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 5
+        width: 14
+        height: 37
+      alignment: 9
+      pivot: {x: 0.68101066, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6b94ef9a14aa248a14ccd6efa9e3c5
+      internalID: 1786301727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueRocketLaunch_6
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 5
+        width: 14
+        height: 38
+      alignment: 9
+      pivot: {x: 0.68101066, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa5f0af983aafbd4d86e485b91003c84
+      internalID: -268069005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueRocketLaunch_7
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 5
+        width: 14
+        height: 39
+      alignment: 9
+      pivot: {x: 0.68101066, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 867afb3bb1408f1438e08e5442d44c18
+      internalID: -1080933504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueRocketLaunch_8
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 5
+        width: 14
+        height: 40
+      alignment: 9
+      pivot: {x: 0.6777202, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a571b25a90d3eae4eabf8bf6d85d8166
+      internalID: 103382064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueRocketLaunch_9
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 5
+        width: 14
+        height: 41
+      alignment: 9
+      pivot: {x: 0.68101066, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f143a4949f1f0bc429abbc42e82dbc1a
+      internalID: -165070786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueRocketLaunch_10
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 5
+        width: 14
+        height: 42
+      alignment: 9
+      pivot: {x: 0.6843022, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cddc6d1c865cdd4ab6e61579010abdc
+      internalID: -314765484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueRocketLaunch_11
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 5
+        width: 14
+        height: 43
+      alignment: 9
+      pivot: {x: 0.68101066, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01e945a7542f4a4391ba9b0c39dd7f9
+      internalID: -322939443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueRocketLaunch_12
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 5
+        width: 14
+        height: 44
+      alignment: 9
+      pivot: {x: 0.6777213, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b13c846657883048be950ab4135f461
+      internalID: -1284212208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueRocketLaunch_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 5
+        width: 14
+        height: 45
+      alignment: 9
+      pivot: {x: 0.68101066, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491f8ded93b7f66479329982caf2a49c
+      internalID: 700087962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BlueRocketLaunch_0: -1486311488
+      BlueRocketLaunch_1: 202129406
+      BlueRocketLaunch_10: -314765484
+      BlueRocketLaunch_11: -322939443
+      BlueRocketLaunch_12: -1284212208
+      BlueRocketLaunch_13: 700087962
+      BlueRocketLaunch_2: -2103425642
+      BlueRocketLaunch_3: 1704207457
+      BlueRocketLaunch_4: 547049619
+      BlueRocketLaunch_5: 1786301727
+      BlueRocketLaunch_6: -268069005
+      BlueRocketLaunch_7: -1080933504
+      BlueRocketLaunch_8: 103382064
+      BlueRocketLaunch_9: -165070786
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
