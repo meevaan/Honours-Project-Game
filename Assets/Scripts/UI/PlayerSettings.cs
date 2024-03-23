@@ -6,6 +6,7 @@ public class PlayerSettings : MonoBehaviour
 {
     public bool tutorialEnabled;
     //Add other settings here
+    public bool gameVersion1or2;
 
     private static PlayerSettings instance;
 

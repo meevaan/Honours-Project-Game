@@ -85,7 +85,7 @@ public class TrackStats : MonoBehaviour
             {
                 textBoxes[0].GetComponent<TMP_Text>().text = "Punches: " + punchCount;
                 textBoxes[1].GetComponent<TMP_Text>().text = "Fire Ability Duration: " + fireDuration;
-                textBoxes[2].GetComponent<TMP_Text>().text = "Fire Effect Duration" + fireEffectDuration;
+                textBoxes[2].GetComponent<TMP_Text>().text = "Fire Effect Duration: " + fireEffectDuration;
                 textBoxes[3].GetComponent<TMP_Text>().text = "Water Ability Duration: " + waterDuration;
                 textBoxes[4].GetComponent<TMP_Text>().text = "Water Effect Duration: " + waterEffectDuration;
                 textBoxes[5].GetComponent<TMP_Text>().text = "Earth Ability Duration: " + earthDuration;

@@ -72,6 +72,11 @@ public class EarthEffect : MonoBehaviour
                 Destroy(this.GetComponent<EarthEffect>());
             }
         }
+
+        if(this.gameObject.tag == "PlayerWeapon" && player.GetComponent<EarthEffect>().enabled == false)
+        {
+            Destroy(this.GetComponent<EarthEffect>());
+        }
     }
 
     void OnCollisionEnter2D(Collision2D collision)

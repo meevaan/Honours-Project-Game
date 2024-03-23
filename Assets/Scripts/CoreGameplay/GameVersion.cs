@@ -12,6 +12,8 @@ public class GameVersion : MonoBehaviour
 
     public List<GameObject> enemySelectors = new List<GameObject>();
 
+    public PlayerSettings PS;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,11 +28,15 @@ public class GameVersion : MonoBehaviour
         {
             enemySelectors[i].SetActive(false);
         }
+
+        PS = GameObject.Find("PlayerSettings").GetComponent<PlayerSettings>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        gameVersion1or2 = PS.gameVersion1or2;
+        
         if(gameVersion1or2 == true)
         {
             switch(W.day)

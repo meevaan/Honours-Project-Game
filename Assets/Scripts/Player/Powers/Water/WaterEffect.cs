@@ -64,6 +64,11 @@ public class WaterEffect : MonoBehaviour
             knockbackEnemy = true;
             Destroy(this.GetComponent<WaterEffect>());
         }
+
+        if(this.gameObject.tag == "PlayerWeapon" && player.GetComponent<WaterEffect>().enabled == false)
+        {
+            Destroy(this.GetComponent<WaterEffect>());
+        }
     }
 
     ////////////// adds the debuff to whatever enemy it touches ///////////////////////////////////////////////////////////////////////////////

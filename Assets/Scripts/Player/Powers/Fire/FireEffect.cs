@@ -65,6 +65,11 @@ public class FireEffect : MonoBehaviour
                 Destroy(this.GetComponent<FireEffect>());
             }
         }
+
+        if(this.gameObject.tag == "PlayerWeapon" && player.GetComponent<FireEffect>().enabled == false)
+        {
+            Destroy(this.GetComponent<FireEffect>());
+        }
     }
 
     void OnCollisionEnter2D(Collision2D collision)

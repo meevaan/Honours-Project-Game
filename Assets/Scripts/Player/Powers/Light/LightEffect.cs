@@ -62,6 +62,11 @@ public class LightEffect : MonoBehaviour
             }
             //Destroy(this.GetComponent<LightEffect>());
         }
+
+        if(this.gameObject.tag == "PlayerWeapon" && player.GetComponent<LightEffect>().enabled == false)
+        {
+            Destroy(this.GetComponent<LightEffect>());
+        }
     }
 
     ////////////// adds the debuff to whatever enemy it touches ///////////////////////////////////////////////////////////////////////////////

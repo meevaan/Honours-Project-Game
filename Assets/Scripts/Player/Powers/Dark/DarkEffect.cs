@@ -48,6 +48,11 @@ public class DarkEffect : MonoBehaviour
                 }
             }
         }
+
+        if(this.gameObject.tag == "PlayerWeapon" && player.GetComponent<DarkEffect>().enabled == false)
+        {
+            Destroy(this.GetComponent<DarkEffect>());
+        }
     }
 
     void OnCollisionEnter2D(Collision2D collision)

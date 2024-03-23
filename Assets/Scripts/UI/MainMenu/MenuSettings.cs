@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class MenuSettings : MonoBehaviour
 {
@@ -15,6 +16,11 @@ public class MenuSettings : MonoBehaviour
     public int tutWhat;
 
     public Button closeSettings;
+
+    public Button toggleVersion;
+    public TMP_Text OneOrTwo;
+    public int pressCount;
+    public bool version1or2;
 
     // Start is called before the first frame update
     void Start()
@@ -36,6 +42,10 @@ public class MenuSettings : MonoBehaviour
         {
             closeSettings.onClick.AddListener(CloseSettings);
         }
+        if(SceneManager.GetActiveScene().name == "MainMenu")
+        {
+            toggleVersion.onClick.AddListener(WhatVersion);
+        }
     }
 
     void CloseSettings()
@@ -47,6 +57,11 @@ public class MenuSettings : MonoBehaviour
     void ToggleTutorial()
     {
         tutWhat += 1;
+    }
+
+    void WhatVersion()
+    {
+        pressCount += 1;
     }
 
     // Update is called once per frame
@@ -65,6 +80,31 @@ public class MenuSettings : MonoBehaviour
         if(tutWhat >= 2)
         {
             tutWhat = 0;
+        }
+
+        if(SceneManager.GetActiveScene().name == "MainMenu")
+        {
+            if(pressCount == 0)
+            {
+                version1or2 = false;
+                OneOrTwo.text = "1";
+            }
+            if(pressCount == 1)
+            {
+                version1or2 = true;
+                OneOrTwo.text = "2";
+            }
+            if(pressCount >= 2)
+            {
+                pressCount = 0;
+            }
+
+            PS.gameVersion1or2 = version1or2;
+        }
+        
+        if(SceneManager.GetActiveScene().name == "TestScene")
+        {
+           version1or2 = PS.gameVersion1or2;
         }
     }
 }
